@@ -1,0 +1,38 @@
+{
+  "name": "bibi-bot",
+  "version": "0.0.1",
+  "description": "A discord assistant",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/app.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasmusir/bibi-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bibi",
+    "bot",
+    "assistant",
+    "helper",
+    "ai",
+    "chat",
+    "ffxiv"
+  ],
+  "author": "Rasmus Israelsson",
+  "license": "SEE LICENSE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/rasmusir/bibi-bot/issues"
+  },
+  "homepage": "https://github.com/rasmusir/bibi-bot#readme",
+  "dependencies": {
+    "@types/node": "^10.1.2",
+    "discord.js": "^11.3.2",
+    "discord.js-typings": "git+https://github.com/discordjs/discord.js-typings.git",
+    "express": "^4.16.3",
+    "typescript": "^2.8.3"
+  }
+}
